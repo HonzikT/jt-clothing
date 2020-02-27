@@ -2,8 +2,10 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
+import firebaseKeys from '../api-keys/firebase-keys'
+
 const config = {
-  apiKey: "AIzaSyDCn4Pi5YKcfNwi9KcwXEXVWZtlTPSYTyE",
+  apiKey: firebaseKeys.api_key,
   authDomain: "jt-clothing-db.firebaseapp.com",
   databaseURL: "https://jt-clothing-db.firebaseio.com",
   projectId: "jt-clothing-db",
